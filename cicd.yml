@@ -1,0 +1,6 @@
+version: '1'
+stages:
+  main:
+    type: docker
+    detach: false
+    dockerfile: Dockerfile
